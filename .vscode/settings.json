@@ -1,0 +1,8 @@
+{
+    "editor.wordWrap": "on",
+    "chat.editor.wordWrap": "off",
+    "debug.console.wordWrap": true,
+    "editor.wordWrapColumn": 80,
+    "diffEditor.wordWrap": "inherit",
+    "notebook.output.wordWrap": true
+}
