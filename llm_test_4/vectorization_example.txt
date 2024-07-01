@@ -1,0 +1,28 @@
+단어를 embed함
+무엇이 우리의 차원을 의미하는지 정의
+
+                Masculinity | Famininity | Royalty
+    king        0.9         | 0.1        | 1.0
+    man         0.9         | 0.1        | 0.0
+    woman       0.1         | 0.9        | 0.0
+
+위처럼 차원이 되는 column의 개수가 많아질수록 더 정확하고 다양한 표현이 가능함 -> 자산정도, 착함, 등등
+
+벡터로 표현했을때의 특징은
+가지고 있는 단어로 연산해서 다른 단어를 만들 수 있다는 것
+
+king - man =    0.0         | 0.0        | 1.0      = royal
+royal + woman = 0.1         | 0.9        | 1.0      = queen
+
+이런 식으로 연산이 가능하게 됨
+
+이렇게 되면 벡터에 대한 search를 할 수 있게 됨
+
+
+turbomaze.github.io/word2vecjson 
+단어 벡터 확인해볼 수 있는 demo
+특정 단어와 유사한 정도를 보여줌
+### 벡터 유사도는 추천시스템에서도 사용하는 것
+
+youtube.com/watch?v=2eWuYf-aZE4&t=2081s
+=> LLM이 어떻게 작동하는지에 대한 설명
